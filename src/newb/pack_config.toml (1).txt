@@ -1,0 +1,56 @@
+name = "Newb Meadow"
+version = [0, 16, 53]
+min_supported_mc_version = [1, 26, 30]
+description = '''
+§c%w
+§7- An enchanced vanilla shader for Minecraft!
+%v
+§3https://newb-shader.devendrn.com/
+''' # %w = patch warning, %v = version
+authors = ["devendrn"]
+url = "https://newb-shader.devendrn.com/"
+uuid = "28bc0ece-6a92-4580-8191-39cad4622782" # Use https://www.uuidgenerator.net/version4
+materials = ["Sky", "RenderChunk", "Actor", "ActorGlint", "EndSky", "Clouds", "SunMoon", "Weather", "ItemInHandTextured", "ItemInHandColor", "ItemInHandColorGlint", "Stars"]
+
+[info] 
+copyright = '''
+Copyright © 2026 %a, and "Newb Shader" Contributors
+
+This compiled "Newb Shader" resource pack (source code: https://github.com/devendrn/newb-x-mcbe under MIT License) is licensed under CC BY-ND 4.0 (https://creativecommons.org/licenses/by-nd/4.0/). Redistribute only unmodified copies with proper attribution to "Newb Shader" and variant creators (if any). Do not distribute derivatives.
+
+You can compile the shader from source and distribute the result under your own terms (compatible with the MIT License).
+
+Contact (Discord Server): https://discord.gg/newb-community-844591537430069279
+''' # %a = authors
+credits = '''
+'''
+
+# subpacks are arranged in left to right order
+# right-most subpack is enabled by default
+[[subpack]]
+define = "POTATO_CLOUDS"
+materials = ["Clouds"]
+description = '''
+Potato - Vanilla Clouds
+'''
+
+[[subpack]]
+define = "NL_CLOUD_TIER_LOW"
+materials = ["Clouds"]
+description = '''
+Low - Static Clouds
+'''
+
+[[subpack]]
+define = "NL_CLOUD_TIER_MEDIUM"
+materials = ["Clouds"]
+description = '''
+Medium - Static Clouds
+'''
+
+[[subpack]]
+define = "NL_CLOUD_TIER_HIGH"
+materials = ["Clouds"]
+description = '''
+High - Moving Clouds
+'''
