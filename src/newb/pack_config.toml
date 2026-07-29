@@ -1,4 +1,4 @@
-name = "Newb Classic"
+name = "Newb Meadow"
 version = [0, 16, 53]
 min_supported_mc_version = [1, 26, 30]
 description = '''
@@ -9,7 +9,7 @@ description = '''
 ''' # %w = patch warning, %v = version
 authors = ["devendrn"]
 url = "https://newb-shader.devendrn.com/"
-uuid = "95f774cf-4afa-73e7-a21a-72146307b1d2" # Use https://www.uuidgenerator.net/version4
+uuid = "28bc0ece-6a92-4580-8191-39cad4622782" # Use https://www.uuidgenerator.net/version4
 materials = ["Sky", "RenderChunk", "Actor", "ActorGlint", "EndSky", "Clouds", "SunMoon", "Weather", "ItemInHandTextured", "ItemInHandColor", "ItemInHandColorGlint", "Stars"]
 
 [info] 
