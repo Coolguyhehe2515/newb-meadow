@@ -111,11 +111,11 @@
 #define NL_WATER_WAVE_SPEED  0.8  // 0.2 calm ~ 2.0 turbulent
 #define NL_WATER_TEX_OPACITY 0.3  // 0.0 plain water ~ 1.0 vanilla water texture
 #define NL_WATER_WAVE             // [toggle] wave effect
-//#define NL_WATER_REFL_MASK      // [toggle] fake water reflection mask
+#define NL_WATER_REFL_MASK      // [toggle] fake water reflection mask
 #define NL_WATER_TINT vec3(0.52,0.9,0.45)
 
 /* Underwater */
-#define NL_UNDERWATER_BRIGHTNESS 0.8         // 0.0 dark ~ 3.0 bright
+#define NL_UNDERWATER_BRIGHTNESS 0.3         // 0.0 dark ~ 3.0 bright
 #define NL_CAUSTIC_INTENSITY 1.9             // 0.5 weak ~ 5.0 bright
 #define NL_UNDERWATER_WAVE 0.1               // [toggle] 0.02 subtle ~ 0.6 trippy
 #define NL_UNDERWATER_STREAKS 1.0            // [toggle] 0.8 subtle - 2.0 bright streaks from top
@@ -161,7 +161,7 @@
 #define NL_CLOUD3_SHADOW 0.35             // 0.1 subtle ~ 1.0 dark
 #define NL_CLOUD3_SHADOW_OFFSET 0.3      // 0.05 minimal ~ 1.0 large
 
-#define NL_CLOUD4_SCALE 4.5               // 1.0 large ~ 20.0 tiny
+#define NL_CLOUD4_SCALE 5.0               // 1.0 large ~ 20.0 tiny
 #define NL_CLOUD4_SPEED 0.0              // 0.0 static ~ 1.0 fast moving
 #define NL_CLOUD4_THRESHOLD 0.22         // 0.0 more clouds ~ 1.0 less clouds
 #define NL_CLOUD4_SOFTNESS 0.45          // 0.05 sharp edges ~ 1.0 soft edges
@@ -173,7 +173,7 @@
 #define NL_CLOUD4_AMBIENT_COLOR vec3(0.68, 0.78, 0.92)
 
 /* Aurora settings */
-#define NL_AURORA 1.2           // [toggle] 0.4 dim ~ 4.0 very bright
+//#define NL_AURORA 1.2           // [toggle] 0.4 dim ~ 4.0 very bright
 #define NL_AURORA_VELOCITY 0.03 // 0.0 static ~ 0.3 very fast
 #define NL_AURORA_SCALE 0.04    // 0.002 large ~ 0.4 tiny
 #define NL_AURORA_WIDTH 0.18    // 0.04 thin line ~ 0.4 thick lines
@@ -188,7 +188,7 @@
 #define NL_SHOOTING_STAR_DELAY 64.0 // 0.0 no delay ~ 100.0 long time (100 secs)
 
 /* Galaxy */
-//#define NL_GALAXY_STARS 2.0           // [toggle] 0.1 dim - 4.0 bright
+#define NL_GALAXY_STARS 2.0           // [toggle] 0.1 dim - 4.0 bright
 #define NL_GALAXY_VIBRANCE 0.35          // 0.0 white - 1.0 colorful
 #define NL_GALAXY_SPEED 0.03            // 0.01 slow motion - 0.2 fast motion
 #define NL_GALAXY_DAY_VISIBILITY 0.0    // 0.0 invisible - 1.0 visible
@@ -209,10 +209,10 @@
 #define NL_MOON_TILT       45.0 // 0.0 no tilt ~ 90.0 tilt of 90 degrees
 
 /* Fake godrays during sunrise/sunset */
-//#define NL_GODRAY 0.3 // [toggle] 0.1 subtle ~ 0.8 strong
+#define NL_GODRAY 0.7 // [toggle] 0.1 subtle ~ 0.8 strong
 
 /* Sky reflection */
-//#define NL_GROUND_REFL 0.4       // [toggle] 0.2 slightly reflective ~ 1.0 fully reflect sky
+#define NL_GROUND_REFL 0.4       // [toggle] 0.2 slightly reflective ~ 1.0 fully reflect sky
 #define NL_GROUND_RAIN_WETNESS 1.0 // 0.0 no wetness ~ 1.0 fully wet blocks when raining
 #define NL_GROUND_RAIN_PUDDLES 0.7 // 0.0 no puddles ~ 1.0 puddles
 
@@ -226,7 +226,7 @@
 #define NL_WEATHER_PARTICLE_SIZE 1.0 // 0.5 tiny ~ 4.0 large
 
 /* Lava effects */
-#define NL_LAVA_NOISE            // [toggle] darken lava in certain regions
+//#define NL_LAVA_NOISE            // [toggle] darken lava in certain regions
 //#define NL_LAVA_NOISE_BUMP 0.2 // [toggle] 0.1 subtle ~ 0.8 massive waves
 #define NL_LAVA_NOISE_SPEED 0.2  // 0.0 still ~ 0.8 fast
 
@@ -263,7 +263,7 @@
 
 #ifdef NL_CLOUD_TIER_HIGH
   #undef NL_CLOUD4_SPEED
-  #define NL_CLOUD4_SPEED 0.06
+  #define NL_CLOUD4_SPEED 0.5
 #endif
 
 #endif
