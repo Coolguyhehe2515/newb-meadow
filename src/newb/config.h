@@ -261,15 +261,6 @@
   #undef NL_CLOUD_SHADOW
 #endif
 
-#ifdef NO_REALISTIC_CLOUD
-  #undef NL_CLOUD_TYPE
-  #define NL_CLOUD_TYPE 1
-#endif
-
-#ifdef NL_MILKY_WAY_TOGGLE
-  #define NL_GALAXY_STARS 2.0
-#endif
-
 #ifdef NL_CLOUD_TIER_HIGH
   #undef NL_CLOUD4_SPEED
   #define NL_CLOUD4_SPEED 0.06
