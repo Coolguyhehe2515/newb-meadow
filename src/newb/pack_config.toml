@@ -7,7 +7,7 @@ description = '''
 %v
 §3https://newb-shader.devendrn.com/
 ''' # %w = patch warning, %v = version
-authors = ["devendrn"]
+authors = ["KrispyBRN","devendrn"]
 url = "https://newb-shader.devendrn.com/"
 uuid = "28bc0ece-6a92-4580-8191-39cad4622782" # Use https://www.uuidgenerator.net/version4
 materials = ["Sky", "RenderChunk", "Actor", "ActorGlint", "EndSky", "Clouds", "SunMoon", "Weather", "ItemInHandTextured", "ItemInHandColor", "ItemInHandColorGlint", "Stars"]
