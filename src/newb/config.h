@@ -111,7 +111,7 @@
 #define NL_WATER_WAVE_SPEED  0.8  // 0.2 calm ~ 2.0 turbulent
 #define NL_WATER_TEX_OPACITY 0.3  // 0.0 plain water ~ 1.0 vanilla water texture
 #define NL_WATER_WAVE             // [toggle] wave effect
-//#define NL_WATER_REFL_MASK      // [toggle] fake water reflection mask
+#define NL_WATER_REFL_MASK      // [toggle] fake water reflection mask
 #define NL_WATER_TINT vec3(0.52,0.9,0.45)
 
 /* Underwater */
@@ -122,7 +122,7 @@
 #define NL_UNDERWATER_TINT vec3(0.9,1.0,0.9) // fog tint color when underwater
 
 /* Cloud type */
-#define NL_CLOUD_TYPE 4 // 0:vanilla, 1:soft, 2:rounded, 3:realistic, 4:layered
+#define NL_CLOUD_TYPE 3 // 0:vanilla, 1:soft, 2:rounded, 3:realistic, 4:layered
 
 /* Vanilla cloud settings - make sure to remove clouds.png when using this */
 #define NL_CLOUD0_THICKNESS 2.1      // 0.5 slim ~ 8.0 fat
