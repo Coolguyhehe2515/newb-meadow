@@ -157,11 +157,11 @@
 
 /* Realistic cloud settings */
 #define NL_CLOUD3_SCALE vec2(0.02, 0.02)  // 0.003 large ~ 1.0 tiny
-#define NL_CLOUD3_SPEED 0.15             // 0.0 static ~ 4.0 fast moving
+#define NL_CLOUD3_SPEED 0.3             // 0.0 static ~ 4.0 fast moving
 #define NL_CLOUD3_SHADOW 0.35             // 0.1 subtle ~ 1.0 dark
 #define NL_CLOUD3_SHADOW_OFFSET 0.3      // 0.05 minimal ~ 1.0 large
 
-#define NL_CLOUD4_SCALE 6.0               // 1.0 large ~ 20.0 tiny
+//#define NL_CLOUD4_SCALE 6.0               // 1.0 large ~ 20.0 tiny
 #define NL_CLOUD4_SPEED 0.0              // 0.0 static ~ 1.0 fast moving
 #define NL_CLOUD4_THRESHOLD 0.22         // 0.0 more clouds ~ 1.0 less clouds
 #define NL_CLOUD4_SOFTNESS 0.45          // 0.05 sharp edges ~ 1.0 soft edges
@@ -262,8 +262,8 @@
 #endif
 
 #ifdef NL_CLOUD_TIER_HIGH
-  #undef NL_CLOUD4_SPEED
-  #define NL_CLOUD4_SPEED 0.06
+  #undef NL_CLOUD3_SPEED
+  #define NL_CLOUD3_SPEED 0.06
 #endif
 
 #endif
