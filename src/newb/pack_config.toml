@@ -3,7 +3,7 @@ version = [0, 16, 53]
 min_supported_mc_version = [1, 26, 30]
 description = '''
 §c%w
-§7- An enchanced vanilla shader for Minecraft!
+§7- A shader aiming for realism,and better overall graphics,not recommended for low end device
 %v
 §3https://newb-shader.devendrn.com/
 ''' # %w = patch warning, %v = version
@@ -31,26 +31,26 @@ credits = '''
 define = "POTATO_CLOUDS"
 materials = ["Clouds"]
 description = '''
-Potato - Vanilla Clouds
+Potato - Vanilla Clouds,no ground reflection,no water reflection,no galaxy stars,no godrays
 '''
 
 [[subpack]]
 define = "NL_CLOUD_TIER_LOW"
 materials = ["Clouds"]
 description = '''
-Low - Static Clouds
+Low - no galaxy stars,no ground reflection,weaker godray,static clouds
 '''
 
 [[subpack]]
 define = "NL_CLOUD_TIER_MEDIUM"
 materials = ["Clouds"]
 description = '''
-Medium - Static Clouds
+Medium - static clouds,no galaxy stars
 '''
 
 [[subpack]]
 define = "NL_CLOUD_TIER_HIGH"
 materials = ["Clouds"]
 description = '''
-High - Moving Clouds
+High - every feature
 '''
