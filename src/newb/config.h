@@ -32,7 +32,7 @@
 #define NL_GAMMA 1.33                  // 0.3 low ~ 2.0 high
 //#define NL_EXPOSURE 1.3              // [toggle] 0.5 dark ~ 3.0 bright
 //#define NL_SATURATION 1.4            // [toggle] 0.0 grayscale ~ 4.0 super saturated
-#define NL_VIBRANCE 0.5                // [toggle] 0.0 none ~ 1.5 strong, boosts weak colors more than vivid ones
+#define NL_VIBRANCE 0.5                // [toggle] 0.0 none ~ 1.5 strong
 #define NL_TINT                        // [toggle] enable light/dark tone tinting
 #define NL_TINT_LOW  vec3(1.0,1.0,1.0) // color tint for dark tone
 #define NL_TINT_HIGH vec3(1.12,1.05,0.9) // color tint for light tone
@@ -210,7 +210,7 @@
 #define NL_MOON_TILT       45.0 // 0.0 no tilt ~ 90.0 tilt of 90 degrees
 
 /* End black hole (noise-based) */
-#define NL_BLACKHOLE                 // [toggle] enable procedural black hole in End sky
+//#define NL_BLACKHOLE                 // [toggle] enable procedural black hole in End sky
 #define NL_BLACKHOLE_DIR   vec3(0.2,0.92,-0.25)
 #define NL_BLACKHOLE_SIZE  0.09  // 0.02 small ~ 0.2 huge
 #define NL_BLACKHOLE_SPEED 0.08  // accretion disk swirl speed
