@@ -216,7 +216,7 @@
 #define NL_BLACKHOLE_SPEED 0.08  // accretion disk swirl speed
 #define NL_BLACKHOLE_DISK_COL vec3(2.2,0.35,1.4)
 #define NL_BLACKHOLE_GLOW_COL vec3(0.55,0.1,0.65)
-#define NL_BLACKHOLE_ISLAND_RADIUS 120.0 // blocks from world origin where it's visible
+#define NL_BLACKHOLE_ISLAND_RADIUS 120.0 // if you read this what are you doing lol
 
 
 /* Fake godrays during sunrise/sunset */
